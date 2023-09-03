@@ -1,0 +1,46 @@
+/* navbar.component.css */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: #fff;
+    backdrop-filter: blur(10px); /* Add backdrop-filter with a blur effect */
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fff; /* Set your desired link color */
+  }
+  
+  /* Style for active link */
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  

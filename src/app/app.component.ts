@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  @HostListener('window:scroll',['$event'])
+  onScroll(event: Event):void {
+    // handle scrolling event here
+    console.log('scrolling..');
+    console.log(window.scrollBy);
+  }
 }
