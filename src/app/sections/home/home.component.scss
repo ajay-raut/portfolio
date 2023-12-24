@@ -1,0 +1,19 @@
+.landing-page {
+    width: 100%; /* Make the div 100% of the viewport width */
+    height: 100vh; /* Make the div 100% of the viewport height */
+    background-color: #913e3e; /* Set a background color */
+    text-align: center; /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #333;
+  }

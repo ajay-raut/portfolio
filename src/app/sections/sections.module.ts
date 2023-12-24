@@ -13,7 +13,7 @@ import { SkillsComponent } from './skills/skills.component';
     SkillsComponent
   ],
   exports:[
-    AboutComponent
+    AboutComponent,HomeComponent
   ],
   imports: [
     CommonModule
